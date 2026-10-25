@@ -1,0 +1,56 @@
+.cart-container { max-width: 900px; margin: 0 auto; padding: 32px 5vw 64px; }
+.cart-total { font-size: 1.6rem; color: #1f4d2b; margin: 0 0 24px; }
+.cart-empty { padding: 32px; text-align: center; background: #fff; border: 1px dashed #b7c9ad; border-radius: 12px; color: #55645a; }
+
+.cart-items { display: flex; flex-direction: column; gap: 16px; }
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #dce6d2;
+  border-radius: 14px;
+}
+.cart-item-image { width: 110px; height: 110px; object-fit: cover; border-radius: 10px; background: #eef3e6; flex-shrink: 0; }
+.cart-item-details { flex: 1; display: flex; flex-direction: column; gap: 8px; }
+.cart-item-name { font-size: 1.2rem; font-weight: 700; }
+.cart-item-cost { color: #55645a; }
+.cart-item-total { font-weight: 700; color: #1f4d2b; }
+
+.cart-item-quantity { display: flex; align-items: center; gap: 12px; }
+.cart-item-quantity-value { min-width: 28px; text-align: center; font-size: 1.1rem; font-weight: 600; }
+.cart-item-button {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #2f7a43;
+  border-radius: 50%;
+  background: #fff;
+  color: #2f7a43;
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.cart-item-button:hover { background: #2f7a43; color: #fff; }
+
+.cart-item-delete {
+  padding: 9px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #b3382c;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cart-item-delete:hover { background: #8f2b22; }
+
+.continue_shopping_btn { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 32px; }
+.continue_shopping_btn .get-started-button { background: #2f7a43; color: #fff; }
+.continue_shopping_btn .get-started-button:hover { background: #256336; }
+.continue_shopping_btn .get-started-button.checkout { background: #ffd166; color: #1f4d2b; }
+.continue_shopping_btn .get-started-button.checkout:hover { background: #ffdd8c; }
+
+@media (max-width: 600px) {
+  .cart-item { flex-wrap: wrap; }
+  .cart-item-delete { width: 100%; }
+}

@@ -1,0 +1,79 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: #1e2a20;
+  background: #f6f8f2;
+}
+
+.app-container { position: relative; min-height: 100vh; }
+
+/* ---------- Landing page ---------- */
+.landing-page {
+  position: relative;
+  min-height: 100vh;
+  color: #fff;
+  transition: opacity 0.4s ease;
+}
+.landing-page.fade-out { display: none; }
+
+/* Background image for the landing page */
+.background-image {
+  position: absolute;
+  inset: 0;
+  background-image: url('/images/landing-bg.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  min-height: 100vh;
+  padding: 48px 6vw;
+}
+
+.landing_content { flex: 1 1 360px; max-width: 520px; text-align: left; }
+.landing_content h1 { font-size: clamp(2.2rem, 5vw, 3.6rem); line-height: 1.1; margin: 0 0 16px; }
+.landing_content p { font-size: 1.3rem; margin: 16px 0 28px; color: #d8ecd2; }
+.divider { width: 80px; height: 4px; background: #bfe3a0; border-radius: 2px; }
+
+.get-started-button {
+  background: #bfe3a0;
+  color: #14391f;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 14px 36px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+.get-started-button:hover { background: #d6f2bd; transform: translateY(-2px); }
+
+.aboutus_container {
+  flex: 1 1 360px;
+  max-width: 560px;
+  background: rgba(10, 35, 18, 0.62);
+  backdrop-filter: blur(4px);
+  border-radius: 16px;
+  padding: 28px 32px;
+}
+.about-us h2 { margin-top: 0; }
+.about-us p { line-height: 1.6; color: #eaf5e6; }
+
+/* ---------- Product list container ---------- */
+.product-list-container { display: none; }
+.product-list-container.visible { display: block; }
+
+@media (max-width: 640px) {
+  .content { padding: 32px 20px; }
+}

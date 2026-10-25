@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="boston fern">
+<rect width="400" height="400" fill="#eef3e6"/><circle cx="200" cy="210" r="170" fill="#dfe9d0"/>
+<ellipse cx="200" cy="372" rx="110" ry="12" fill="#00000018"/>
+<ellipse cx="200" cy="130" rx="19" ry="90" fill="#3f8f46" transform="rotate(-55 200 220)" /><ellipse cx="200" cy="140" rx="14" ry="85" fill="#3f8f46" transform="rotate(-35 200 225)" /><ellipse cx="200" cy="144" rx="22" ry="83" fill="#3f8f46" transform="rotate(-15 200 227)" /><ellipse cx="200" cy="170" rx="16" ry="70" fill="#3f8f46" transform="rotate(0 200 240)" /><ellipse cx="200" cy="168" rx="22" ry="71" fill="#3f8f46" transform="rotate(15 200 239)" /><ellipse cx="200" cy="136" rx="18" ry="87" fill="#3f8f46" transform="rotate(35 200 223)" /><ellipse cx="200" cy="104" rx="22" ry="103" fill="#3f8f46" transform="rotate(55 200 207)" /><ellipse cx="200" cy="220" rx="10" ry="60" fill="#7bc47f" transform="rotate(-25 200 280)" /><ellipse cx="200" cy="220" rx="10" ry="60" fill="#7bc47f" transform="rotate(25 200 280)" /><circle cx="218" cy="186" r="11" fill="#7bc47f" stroke="#3f8f46" stroke-width="2"/><circle cx="248" cy="157" r="11" fill="#7bc47f" stroke="#3f8f46" stroke-width="2"/><circle cx="194" cy="162" r="11" fill="#7bc47f" stroke="#3f8f46" stroke-width="2"/>
+<path d="M120 290 H280 L262 365 Q260 372 252 372 H148 Q140 372 138 365 Z" fill="#a0522d"/>
+<rect x="112" y="280" width="176" height="22" rx="6" fill="#a0522d"/>
+<rect x="112" y="280" width="176" height="6" rx="3" fill="#ffffff30"/>
+</svg>
